@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#"
+     xml:base="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasConnectivityModule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasConnectivityModule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGnssReceiver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGnssReceiver">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGsm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGsm">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasConnectivityModule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasOs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasOs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasPrice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSize"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isGnssReceiverOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isGnssReceiverOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isSensorOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isGsmOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isGsmOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isOsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isOsOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isPriceOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isPriceOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isSensorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isSensorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isSizeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isSizeOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Screen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Android -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Android">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Ios"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Bluetooth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Sensor"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Galileo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Galileo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighGamma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighGamma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGnssReceiver"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gps"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasPrice"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighPrice"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Bluetooth"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#5g"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Camera"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowGamma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Ios -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Ios">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowGamma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowGamma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasPrice"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowPrice"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGsm"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#4g"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasConnectivityModule"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Camera"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#GnssReceiver"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowPrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowPrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#MiddlePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#MiddlePrice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Nfc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Nfc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Phone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Phone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Screen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Screen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#4g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#4g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#5g"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#5g -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#5g">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#iphone11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#iphone11">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasGnssReceiver"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gps"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasPrice"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighPrice"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Bluetooth"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#isConnectivityModuleOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#5g"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#hasSensor"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Camera"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Bluetooth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Gsm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Nfc"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#ConnectivityModule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Screen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Sensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#HighPrice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#LowPrice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#MiddlePrice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Phone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneGamma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#Phone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneHardware"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhoneOs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gianluca/ontologies/2020/phones.owl#PhonePrice"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
